@@ -1,6 +1,6 @@
 
 
-const requestBody = {
+const requestBody = {asdasd
     title: 'foo',
     body: 'bar',
     userId: 1,
@@ -8,8 +8,7 @@ const requestBody = {
 
 const fetchSomeThing = async () => {
 
-    try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
+    try {asdasdatch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST', // mode: 'no-cors',
             body: JSON.stringify(requestBody),
             headers: {
